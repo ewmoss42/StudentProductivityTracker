@@ -1,0 +1,94 @@
+.task-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.task-form input[type="text"] {
+  flex: 1;
+  min-width: 220px;
+  padding: 10px;
+}
+
+.task-form input[type="date"] {
+  padding: 10px;
+}
+
+.task-form button {
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.task-item.completed .task-title {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.task-meta {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.task-actions button {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.task-actions .danger {
+  background: #ffe5e5;
+  border: 1px solid #ffb3b3;
+}
+
+.stats {
+  display: flex;
+  gap: 12px;
+  margin: 12px 0 10px;
+  opacity: 0.9;
+}
+
+.stats div {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.filters a {
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 10px;
+  color: black;
+}
+
+.filters a.active {
+  background: #eee;
+}
