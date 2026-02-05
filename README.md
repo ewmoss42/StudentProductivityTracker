@@ -5,8 +5,7 @@ Instructions for Build and Use
 Software Demo
 
 📹 Demo Video:
-(Paste your YouTube video link here)
-
+https://youtu.be/yAM9Jf1eCPo
 Steps to Build and/or Run the Software
 
 Create a project folder and open it in Visual Studio Code.
